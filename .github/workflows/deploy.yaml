@@ -44,7 +44,7 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: raymondanythings/moim
+          project: raymondanythings/moin
           stage: main
           yaml: |
             name: test
